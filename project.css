@@ -1,0 +1,140 @@
+  x {
+        display: block;
+        font-size: 2.5em;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    rainbow {
+        background: linear-gradient(90deg, #fd004e, #fed302);
+        text-align: center;
+        font-weight: 700;
+        font-family: Poppins, arial, sans-serif;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    .l{
+        position:relative;
+        padding-left:80px ;
+        padding-right:80px;
+    }
+
+    j{
+        font-size: 0.35cm;
+        text-align:justify;
+        margin:40px;
+    }
+    k{
+        font-size:0.75cm;
+        text-align:center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+	header{
+		background:black;
+		width:975px;
+	}
+    footer{
+        background:black;
+        height:150px;
+        width:975px;
+        font-family:"open sans";
+        color:white;
+    }
+	.f1{
+		position: relative;
+		top: -25px;
+		padding-left:350px;
+	}
+	section{
+		
+		width:975px
+	}
+    .content{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        text-align:center;
+    }
+    .footer h3{
+        font-size:2cm;
+        font-weight:400;
+        text-transform:capitalize;
+        line-height:1cm;
+        position: relative;
+        bottom:20px;
+    }
+    .socials{
+        list-style:none;
+        display:flex;
+        position: relative;
+        top: -10px;
+        padding-right: 40px;
+        margin: 1rem 0 1rem 0;
+    }
+    .socials li{
+        margin: 0 15px;
+    }
+    .socials a{
+        text-decoration:none;
+        color:goldenrod;
+    }
+    .socials a i{
+        font-size:0.5cm;
+    }
+    .socials a:hover i{
+        color:greenyellow
+    }
+
+    .footer-bottom{
+        background:#000;
+        width: 100vw;
+        text-align: center;
+    }
+    .footer-bottom p{
+        font-size:14px;
+        word-spacing:2px;
+        text-transform:capitalize;
+    }
+
+    .Hero{
+        width: 975px;
+        height:300px;
+        background-image:url("pro.jpg");
+        background-size: cover;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+    }
+    .hr{
+        width: 975px;
+        height:300px;
+        background-image:url("gym2.webp");
+        background-size: cover;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+    }
+    .navbar{
+        height:12%;
+        display:flex;
+        align-items: center;
+    }
+
+    nav{
+       flex: 1;
+       text-align: right;
+    }
+
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color:#fff;
+        font-size:13px;
+    }

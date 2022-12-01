@@ -1,0 +1,141 @@
+
+
+    rainbow {
+        background: linear-gradient(90deg, #fd004e, #fed302);
+        text-align: center;
+        font-weight: 700;
+        font-family: Poppins, arial, sans-serif;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    section{
+        height: 600px;
+        width: 975px;
+        
+    }
+    footer{
+        background:black;
+        height:150px;
+        width:975px;
+        font-family:"open sans";
+        color:white;
+    }
+    .content{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex-direction:column;
+        text-align:center;
+    }
+    .footer h3{
+        font-size:2cm;
+        font-weight:400;
+        text-transform:capitalize;
+        line-height:1cm;
+    }
+    .socials{
+        list-style:none;
+        display:flex;
+        align-items:center;
+        top: -50px;
+        padding-right: 40px;
+        justify-content:center;
+        margin: 1rem 0 1rem 0;
+    }
+    .socials li{
+        margin: 0 15px;
+    }
+    .socials a{
+        text-decoration:none;
+        color:goldenrod;
+    }
+    .socials a i{
+        font-size:0.5cm;
+    }
+    .socials a:hover i{
+        color:greenyellow
+    }
+
+    .footer-bottom{
+        background:#000;
+        width: 100vw;
+        text-align: center;
+    }
+    .footer-bottom p{
+        font-size:14px;
+        word-spacing:2px;
+        text-transform:capitalize;
+    }
+
+    .f1{
+		position: relative;
+		top: -10px;
+		padding-left:350px;
+	}
+    .hr{
+        background-size: cover;
+        
+        
+        box-sizing: border-box;
+    }
+    header{
+        background-image:url("gym2.webp");
+        position: relative;
+        width: 975px;
+        height:300px;
+
+    }
+    .navbar{
+        height:150px;
+        width: 900px;
+        display:flex;
+        align-items: center;
+        position: relative;
+        top: -410px;
+     }
+
+    nav{
+       flex: 1;
+       text-align: right;
+    }
+
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color:#fff;
+        font-size:13px;
+    }
+    .info{
+        
+        font-size:0.3cm;
+        padding:80px 150px;
+    }
+    .info h1{
+        
+        font-size: 1.5cm;
+        
+    }
+    
+    .C{
+        position: relative;
+        bottom:520px;
+        padding-left: 670px;
+        font-size:.7cm;
+    }
+    .U{
+        position: relative;
+        bottom:598px;
+        padding-left: 828px;
+        font-size:.7cm;
+    }
+    .form{
+        position: relative;
+        bottom: 600px;
+        padding-left: 670px;
+    }
